@@ -12,28 +12,35 @@ body {
   background-color: blue;
 }
 
+h1{
+
+
+}
+
 #formulario{
 background-color: red;
 border-radius: 10px;
 height: 80vh;
-width: 60vh;
+width: 60vh;;
 }
 
-#caixasdetexto{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 75vh;
-  gap: 40px;
-  margin-top: 20px;
-  background-color: white;
-  color: rgb(0, 0, 0);
-}
 
 .caixa{
   display: flex;
   width: 40vh;
-  height: 5vh;
+  height: 4vh;
+  border: none;
   border-radius: 6px;
   border-color: red;
+  margin-bottom: 50px;
+}
+
+#botao-cadastro{
+  display: flex;
+  
+  width: 20vh;
+  height: 4vh;
+  border-radius: 6px;
+  border-color: red;
+  background-color: green;
 }

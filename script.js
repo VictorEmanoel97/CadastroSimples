@@ -1,15 +1,19 @@
 let caixatexto = document.getElementsByClassName("caixa");
-const limp = document.getElementById("limpar");
+let senha = document.getElementById("senha");
+const enviarr = document.getElementById("botao-cadastro");
 
-const enviarr = document.getElementById("enviar");
-
-function validar() {
+function cadastrar() {
     for (let i = 0; i < caixatexto.length; i++) {
-        if (caixatexto[i].value == "") {
-            alert("preencha o campo");
+        if (caixatexto[0].value == "") {
+            alert("preencha seu nome completo");
+            return;
+       
+        }
+         else if (caixatexto[1].value == "") {
+            alert("preencha sua data de nascimento");
             return;
         }
-
    }
     alert("cadastro realizado com sucesso");
 }
+
