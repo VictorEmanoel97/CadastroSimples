@@ -2,16 +2,15 @@ const caixatexto = document.querySelectorAll(".caixa");
 const senha = document.getElementById("senha");
 const nome = document.getElementById("nome");
 const email = document.getElementById("email");
-const enviar = document.getElementById("botao-cadastro");
 const mostrarSenha = document.getElementById("mostrar-senha");
 
 function showpassword() {
     if (senha.type === "password") {
         senha.type = "text";
-        mostrarSenha.value = "👁️";
+        mostrarSenha.value = "🐵";
     } else {
         senha.type = "password";
-        mostrarSenha.value = "︶";
+        mostrarSenha.value = "🙈";
     }
 }
 
@@ -63,5 +62,3 @@ function cadastrar() {
     
     alert("cadastro realizado com sucesso"); 
 }
-
-
