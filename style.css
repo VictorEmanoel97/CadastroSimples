@@ -1,19 +1,22 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: rgb(129, 129, 129);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(129, 129, 129);
 }
 
 h1{
   position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
   top: 10vh;
 }
 
@@ -25,57 +28,64 @@ width: 50vh;;
 }
 
 #informacoes{
-  position: absolute;
-  top: 0vh;
-  left: 0vh;
-  width: 10vh;
-  height: 10vh;
-  background-color: rgb(255, 0, 0);
+position: absolute;
+top: 0vh;
+left: 0vh;
+width: 10vh;
+height: 10vh;
+background-color: rgb(255, 0, 0);
 }
 
 p{
-  margin-left: 3vh;
-  margin-top: 3vh;
-  font-size: 2vh;
+margin-left: 3vh;
+margin-top: 3vh;
+font-size: 2vh;
 }
 
 .caixa{
-  display: flex;
-  width: 40vh;
-  height: 4vh;;
-  border-radius: 1vh;
-  margin-bottom: 5vh;
-  margin-left: 3vh;
+display: flex;
+width: 40vh;
+height: 4vh;;
+box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+border-radius: 1vh;
+border-style: solid;
+margin-bottom: 5vh;
+margin-left: 3vh;
+}
+
+.caixa:focus{
+outline: none;
+border-color: rgb(0, 55, 255);
 }
 
 #mostrar-senha{
-  display: flex;
-  width: 4vh;
-  height: 4vh;
-  font-size: 2vh;
-  border-radius: 10vh;
-  border: none;
-  background-color: transparent;
-  position: relative;
-  left: 39vh;
-  bottom: 9vh;
+display: flex;
+width: 4vh;
+height: 4vh;
+font-size: 2vh;
+border-radius: 10vh;
+border: none;
+background-color: transparent;
+position: relative;
+left: 39vh;
+bottom: 9vh;
 }
 
 
 
 #botao-cadastro{
-  display: flex;
-  width: 20vh;
-  height: 4vh;
-  border-radius: 1vh;
-  border: none;
-  background-color: rgb(0, 55, 255);
-  position: relative;
-  left: 15vh;
-  bottom: 7vh;
+display: flex;
+width: 20vh;
+height: 4vh;
+border-radius: 1vh;
+border: none;
+background-color: rgb(0, 55, 255);
+position: relative;
+left: 15vh;
+bottom: 7vh;
 }
 
 #botao-cadastro:hover{
-  background-color: rgb(4, 0, 238);
-  cursor: pointer;
+background-color: rgb(4, 0, 238);
+cursor: pointer;
 }

@@ -1,6 +1,7 @@
 const caixatexto = document.querySelectorAll(".caixa");
 const senha = document.getElementById("senha");
 const nome = document.getElementById("nome");
+const usuario = document.getElementById("usuario");
 const email = document.getElementById("email");
 const mostrarSenha = document.getElementById("mostrar-senha");
 
