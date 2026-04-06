@@ -39,13 +39,13 @@ function cadastrar() {
     
     const nomevar = nome.value.trim();
         if (!nomevar.includes(" ") || nomevar.split(" ").length < 2) {
-        alert("O campo nome é obrigatório e deve conter pelo menos dois nomes.");
+        alert("O campo nome é obrigatório e deve conter nome e sobrenome.");
         return;
 }
 
     if (!validarEMAIL(email.value)) {
         email.style.border = "2px solid red";
-        alert("O campo email é obrigatório e deve conter um endereço de email válido.");
+        alert("O campo email é obrigatório e deve conter um endereço de email válido, ex: usuario@dominio.com.");
         return;
     }
 
