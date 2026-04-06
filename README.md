@@ -33,7 +33,7 @@ Este projeto foi desenvolvido com foco em aprendizado, visando melhorar habilida
 
 Clone este repositório:
 
-git clone https://github.com/VictorEmanoel97/Validacao_de_Formulario.git
+git clone https://github.com/VictorEmanoel97/CadastroSimples.git
 
 Abra o arquivo index.html no navegador.
 
