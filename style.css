@@ -9,7 +9,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background:linear-gradient(to left, #2fd4d2 ,#0916c7);
+background:linear-gradient(to left, #2250ce ,#0fc5c5);
 }
 
 h1{
@@ -27,15 +27,6 @@ border-radius: 0.7vh;
 height: 50vh;
 width: 50vh;
 border: none;
-}
-
-#informacoes{
-position: absolute;
-top: 0vh;
-left: 0vh;
-width: 10vh;
-height: 10vh;
-background-color: rgb(255, 0, 0);
 }
 
 p{
@@ -73,8 +64,6 @@ position: relative;
 left: 39vh;
 bottom: 9.2vh;
 }
-
-
 
 #botao-cadastro{
 display: flex;

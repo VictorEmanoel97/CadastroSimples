@@ -20,6 +20,11 @@ const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 return regex.test(email);
 }
 
+function validarNome(nome) {
+    const regex = /^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$/;
+    return regex.test(nome);
+}
+
 function cadastrar() {
     let camposVazios = false;
     for (let i = 0; i < caixatexto.length; i++) {
@@ -31,7 +36,6 @@ function cadastrar() {
         }
        
     } 
-        
         if (camposVazios) {
            alert("Todos os campos são obrigatórios. Por favor, preencha-os.");
            return; 
@@ -46,6 +50,12 @@ function cadastrar() {
     if (!validarEMAIL(email.value)) {
         email.style.border = "2px solid red";
         alert("O campo email é obrigatório e deve conter um endereço de email válido, ex: usuario@dominio.com.");
+        return;
+    }
+
+    if (!validarNome(nome.value)) {
+        nome.style.border = "2px solid red";
+        alert("O campo nome é obrigatório e deve conter apenas letras.");
         return;
     }
 
